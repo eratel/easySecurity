@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>plugin-intercept-security</artifactId>
+	<packaging>jar</packaging>
+
+	<name>plugin-intercept-security</name>
+	<description>plugin-intercept-security</description>
+
+	<parent>
+		<groupId>com.tg.bmp</groupId>
+		<artifactId>bmp</artifactId>
+		<version>1.0</version>
+	</parent>
+	
+	<properties>
+		<springboot.skip>true</springboot.skip>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.tg.bmp</groupId>
+			<artifactId>plugin-securitya-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.netflix.feign</groupId>
+			<artifactId>feign-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.netflix.feign</groupId>
+			<artifactId>feign-jackson</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.netflix.feign</groupId>
+			<artifactId>feign-jaxrs</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>javax.core.common</groupId>-->
+			<!--<artifactId>core-common-utils</artifactId>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
