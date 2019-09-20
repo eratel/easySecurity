@@ -10,14 +10,14 @@
     <description>ABHSY-security-service</description>
 
     <parent>
-        <groupId>com.tg.bmp</groupId>
-        <artifactId>bmp</artifactId>
+        <groupId>com.abhsy.easy</groupId>
+        <artifactId>easy_security</artifactId>
         <version>1.0</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>com.tg.bmp</groupId>
+            <groupId>com.abhsy.easy</groupId>
             <artifactId>plugin-securitya-common</artifactId>
         </dependency>
         <dependency>

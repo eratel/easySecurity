@@ -10,8 +10,8 @@
 	<description>plugin-securitya-common</description>
 
 	<parent>
-		<groupId>com.tg.bmp</groupId>
-		<artifactId>bmp</artifactId>
+		<groupId>com.abhsy.easy</groupId>
+		<artifactId>easy_security</artifactId>
 		<version>1.0</version>
 	</parent>
 	
